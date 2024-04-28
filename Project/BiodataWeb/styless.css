@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+h2{
+    color: white;
+}
+
+.navigasi{
+    background-color: #07575B;
+    width: 100%;
+    height: 70px;
+}
+
+.logo{
+    float: left;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+.menu{
+    margin-left: 700px;
+    padding-top: 28px;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover{
+    color: white;
+    font-style: italic;
+
+}
+
+.banner{
+    height: 500px;
+    text-align: center;
+    background-color: #66A5AD;
+    color: white;   
+}
+
+.banner img{
+    border-radius: 100px;
+    height: 150px;
+    border: solid white;
+    margin-top: 50px;
+    margin-left: -10%;
+}
+
+.banner h1{
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.banner button{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+.banner button:hover{
+    background-color: aqua;
+    border: 1px white;
+    color: white;
+}
+
+.box-pendidikan{
+    background-color: #66A5AD;
+    text-align: center;
+    color: white;
+    align-content: center;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.box-pendidikan #data {
+    text-align: justify; /* Mengatur penataan teks menjadi rata kiri-kanan */
+    max-width: 800px; /* Mengatur lebar maksimum teks */
+    margin: 0 auto; /* Mengatur jarak tepi horizontal untuk memposisikan teks di tengah */
+    padding: 50px 100px; /* Mengatur padding untuk memberi ruang di sekitar teks */
+}
+
+
+.box-kiri, .box-kanan{
+    width: 200px;
+    height: 250px;
+    background-color: #07575B;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 100px 100px 20px 90px;
+    float: left;
+    border-radius: 50px;
+}
+
+.box-kiri:hover, .box-kanan:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.box-kiri a img{
+    border-radius: 50px;
+}
+
+.box-kanan a img{
+    border-radius: 50px;
+}
+
+
+

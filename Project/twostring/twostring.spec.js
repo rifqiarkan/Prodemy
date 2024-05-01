@@ -1,10 +1,11 @@
 import { expect } from "chai";
 import twoStrings from "./twostring.js";
 
-describe('2 string terdapat satu karakter yang sama', function() {
+describe('fungsi 2 string terdapat karakter yang sama', function() {
 
     it('Terdapat satu huruf sama, menghasilkan nilai YES', function() {
-        expect(twoStrings('hebe', 'destri')).to.equal('YES')
+        const result = twoStrings('hebe', 'destria')
+        expect(result).to.equal('YES')
     }),
 
     it('Terdapat dua huruf sama, menghasilkan nilai YES', function() {

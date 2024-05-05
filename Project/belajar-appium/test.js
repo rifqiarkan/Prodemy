@@ -19,18 +19,10 @@ async function runTest() {
 	const driver = await remote(wdOpts)
 	try {
 		const bluetoothItem = await driver.$('//*[@text="Bluetooth"]');
-		// const bluetoothMode = await driver.$('//*[@text="Off"]')
-		// await expect(bluetoothMode).getText('Off')
 		await bluetoothItem.click()
 		
-
-		// const bluetoothTitle = await driver.$('id=android:id/title')
-		// expect(bluetoothTitle).getText('Bluetooth')
 		const bluetoothOpt = await driver.$('id=com.coloros.wirelesssettings:id/switchWidget');
 		await bluetoothOpt.click()
-
-		// const bluetoothOn = await driver.$('//*[@text="On"]')
-		// expect(bluetoothOn).getText('On')
 
 	} finally {
 		await driver.pause(1000);
